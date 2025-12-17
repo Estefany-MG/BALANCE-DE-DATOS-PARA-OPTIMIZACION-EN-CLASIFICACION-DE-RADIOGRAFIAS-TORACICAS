@@ -37,7 +37,7 @@ El proyecto está organizado para reflejar las fases de la metodología de la te
 | `checkpoints/` | Almacenamiento de los pesos intermedios y el mejor modelo resnet50\_Base\_GAN\_FINETUNED\_best.h5. | V. Resultados |
 | `generated_data/` | Imágenes sintéticas generadas por WGAN-GP para el balanceo. | V. Resultados |
 | `results/` | Matrices de confusión, curvas ROC/PR, y gráficos de entrenamiento finales. | V. Resultados |
-| `TESIS_ANEXO_CODIGO_BASE.py` | Script consolidado y limpio que reproduce todo el pipeline. | Anexo de Código |
+
 
 ## 🛠️ Reproducibilidad y Ejecución
 
@@ -51,11 +51,12 @@ El proyecto se puede ejecutar en Google Colab o cualquier entorno con GPU (NVIDI
     pip install tensorflow keras scikit-learn matplotlib numpy opencv-python kaggle torch torchvision seaborn tqdm
     ```
 3.  **Datos:** Los datos se descargan automáticamente desde la API de Kaggle.
+4.  **Modelos:** Los modelos obtenidos y almacenados se encuentran en: https://drive.google.com/drive/folders/1md03dFH12hTRoLk_EJ4ad4tWjSSpc-4Z?usp=drive_link
 
 ### Pasos de Reproducción
 
 1.  **Configurar Kaggle:** Sube tu archivo kaggle.json para autenticar la descarga del dataset.
-2.  **Ejecutar TESIS\_ANEXO\_CODIGO\_BASE.py:** Ejecuta el script o el notebook asociado siguiendo la secuencia lógica:
+2.  Ejecuta el script o el notebook asociado siguiendo la secuencia lógica:
       * **Fase 1:** Preprocesamiento y Carga de Datos (implementa CLAHE/Recorte).
       * **Fase 2:** Entrenamiento de WGAN-GP (Generación del dataset sintético).
       * **Fase 3:** Entrenamiento de ResNet50 para los 6 Escenarios (incluyendo el Fine-Tuning del Escenario 5 y 6).
