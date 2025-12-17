@@ -16,8 +16,8 @@ El objetivo principal fue demostrar que las técnicas de balanceo mejoran el ren
 
 | Modelo / Escenario | Estrategia de Balance | Accuracy Global | Especificidad (Clase Normal - Minoría) | ROC-AUC |
 | :--- | :--- | :--- | :--- | :--- |
-| **Escenario 1 (Línea Base)** | Sin Balance (CCE Estándar) | 91.47% | 84.81% | 0.9635 |
-| **Escenario 5 (Óptimo)** | **WGAN-GP + CCE** | **94.37%** | **91.77%** | **0.9837** |
+| **Escenario 1 (Línea Base)** | Sin Balance (BCE Estándar) | 91.47% | 84.81% | 0.9635 |
+| **Escenario 5 (Óptimo)** | **WGAN-GP + BCE** | **94.37%** | **91.77%** | **0.9837** |
 | **Escenario 6 (Híbrido)** | WGAN-GP + Focal Loss | 93.17% | **93.67%** | 0.9813 |
 
 ### Conclusiones Principales
