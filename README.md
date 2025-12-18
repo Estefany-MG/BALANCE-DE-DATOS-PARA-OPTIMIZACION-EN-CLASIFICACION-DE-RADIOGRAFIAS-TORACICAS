@@ -34,8 +34,8 @@ El proyecto está organizado para reflejar las fases de la metodología de la te
 | Archivo / Carpeta | Descripción | Tesis (Capítulo) |
 | :--- | :--- | :--- |
 | `notebooks/` | Contiene el código fuente por etapas (ver abajo). | IV. Metodología |
-| `checkpoints/` | Almacenamiento de los pesos intermedios y el mejor modelo resnet50\_Base\_GAN\_FINETUNED\_best.h5. | V. Resultados |
-| `generated_data/` | Imágenes sintéticas generadas por WGAN-GP para el balanceo. | V. Resultados |
+| `preprocesamiento` | https://drive.google.com/drive/folders/1Y86lOzdQbh3M5iNP3bdtv7GzIGfwBq5c?usp=sharing | V. Resultados |
+| `generated_data/` | https://drive.google.com/drive/folders/105Dk2Y0i8wyygmjaY5G0TaRCakx0kKpn?usp=sharing | V. Resultados |
 | `results/` | Matrices de confusión, curvas ROC/PR, y gráficos de entrenamiento finales. | V. Resultados |
 
 
